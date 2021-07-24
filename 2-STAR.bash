@@ -29,5 +29,5 @@ samtools sort -o $name.bam  $name.sam
 samtools index $name.bam
 samtools flagstat $name.bam  > $name.flagstat
 
-cd /media/zhoujiaqi/TOSHIBA EXT/Data/circRNA_ICC_raw
+cd '/media/zhoujiaqi/TOSHIBA EXT/Data/circRNA_ICC_raw'
 done
